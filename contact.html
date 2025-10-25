@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" id="htmlRootContact" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>اتصل بنا - GO STORE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-900">
+  <header class="bg-white border-b">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-semibold">اتصل بنا</h1>
+      <a href="index.html" class="text-green-600">العودة للمتجر</a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-8">
+    <div class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-bold mb-4">تواصل معنا</h2>
+      <form id="contactForm" class="space-y-4">
+        <div><label>الاسم</label><input id="cname" class="border rounded w-full px-3 py-2"></div>
+        <div><label>البريد الالكتروني</label><input id="cemail" class="border rounded w-full px-3 py-2" type="email"></div>
+        <div><label>الرسالة</label><textarea id="cmsg" class="border rounded w-full px-3 py-2"></textarea></div>
+        <div class="text-right"><button class="px-4 py-2 bg-green-600 text-white rounded">إرسال</button></div>
+      </form>
+    </div>
+  </main>
+  <footer class="bg-white border-t mt-12 py-6">
+    <div class="max-w-5xl mx-auto px-4 text-center text-sm text-gray-600">GO STORE. © <span id="year"></span></div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
