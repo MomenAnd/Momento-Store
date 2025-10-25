@@ -11,6 +11,26 @@ const PRODUCTS = [
 
 const CART_KEY='momento_store_cart';
 
+// عناصر السلة
+const cartSidebar = document.querySelector(".cart-sidebar");
+const cartOverlay = document.querySelector(".cart-overlay");
+const cartIcon = document.querySelector(".cart-icon");
+const closeCart = document.querySelector(".close-cart");
+
+// فتح السلة
+cartIcon.addEventListener("click", () => {
+  cartSidebar.classList.add("open");
+  cartOverlay.classList.add("active");
+});
+
+// إغلاق السلة عند الضغط على الخلفية أو زر الإغلاق
+cartOverlay.addEventListener("click", closeSidebar);
+closeCart.addEventListener("click", closeSidebar);
+
+function closeSidebar() {
+  cartSidebar.classList.remove("open");
+  cartOverlay.classList.remove("active");
+}
 function el(html){ const d=document.createElement('div'); d.innerHTML=html.trim(); return d.firstChild; }
 function formatEGP(n){ return n + ' ج.م'; }
 
