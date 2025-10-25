@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GO STORE Plus</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow sticky top-0 z-20">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <h1 class="text-xl font-semibold">GO STORE Plus</h1>
+      <a href="checkout.html" class="text-blue-600">السلة</a>
+    </div>
+  </header>
+  <main class="max-w-5xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6" id="productGrid"></main>
+  <footer class="bg-white border-t mt-12 py-6">
+    <div class="max-w-5xl mx-auto px-4 text-center text-sm text-gray-600">GO STORE. جميع الحقوق محفوظة. © <span id="year"></span></div>
+  </footer>
+  <script>
+    const CART_KEY='go_store_cart';const products=[
+      {id:1,title:'هاتف سامسونج',price:4999,img:'https://via.placeholder.com/400x250?text=Phone'},
+      {id:2,title:'سماعات بلوتوث',price:899,img:'https://via.placeholder.com/400x250?text=Headphones'},
+      {id:3,title:'ساعة ذكية',price:1299,img:'https://via.placeholder.com/400x250?text=Watch'}
+    ];
+    const grid=document.getElementById('productGrid');
+    products.forEach(p=>{
+      const div=document.createElement('div');
+      div.className='bg-white rounded shadow p-3 flex flex-col items-center';
+      div.innerHTML=`<img src='${p.img}' class='rounded mb-3'/><h2 class='font-semibold mb-1'>${p.title}</h2><p class='mb-2 text-gray-700'>${p.price} ج.م</p><button class='bg-blue-600 text-white px-4 py-1 rounded' onclick='addToCart(${p.id})'>إضافة للسلة</button>`;
+      grid.appendChild(div);
+    });
+    function addToCart(id){
+      let cart=JSON.parse(localStorage.getItem(CART_KEY)||'[]');
+      const item=cart.find(x=>x.id===id);
+      if(item)item.qty++;else cart.push({id,qty:1});
+      localStorage.setItem(CART_KEY,JSON.stringify(cart));
+      alert('تمت إضافة المنتج إلى السلة ✅');
+    }
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
