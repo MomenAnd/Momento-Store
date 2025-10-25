@@ -11,4 +11,66 @@ body{font-family:'Tajawal',sans-serif;background:#f8fafb}
 .cart-panel{display:flex;flex-direction:column}
 .cart-backdrop.show{display:block}
 .card img{height:180px;width:100%;object-fit:cover;border-radius:8px}
-@media (max-width:768px){ .carousel > .card{flex:0 0 80%} }
+@media (max-width:768px){ .carousel > .card{flex:0 0 80%} 
+                        /* ====== إعداد السلة الجانبية ====== */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 340px;
+  max-width: 90%;
+  height: 100vh;
+  background: #fff;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  transform: translateX(100%);
+  transition: transform 0.35s ease-in-out;
+  overflow-y: auto;
+  padding: 20px;
+  border-radius: 12px 0 0 12px;
+}
+
+/* لما تنفتح السلة */
+.cart-sidebar.open {
+  transform: translateX(0);
+}
+
+/* تظليل خلف الصفحة عند فتح السلة */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cart-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* تنسيق زر الإغلاق داخل السلة */
+.cart-sidebar .close-cart {
+  display: block;
+  text-align: left;
+  font-size: 22px;
+  cursor: pointer;
+  color: #333;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+}
+
+/* عند العرض على الموبايل */
+@media (max-width: 768px) {
+  .cart-sidebar {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+                        }
