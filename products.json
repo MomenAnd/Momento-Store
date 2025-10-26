@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "ar": "قميص قطن كلاسيكي",
+    "price": 399,
+    "cat": "قمصان",
+    "images": [
+      "https://images.unsplash.com/photo-1520975910232-0b6d1f0a5f22?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ],
+    "desc_ar": "قميص قطني مريح مناسب للعمل والخروج."
+  },
+  {
+    "id": 2,
+    "ar": "تيشيرت بولو",
+    "price": 299,
+    "cat": "قمصان",
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "كحلي",
+      "أبيض"
+    ],
+    "desc_ar": "تيشيرت بولو أنيق بقصة مريحة."
+  },
+  {
+    "id": 3,
+    "ar": "جينز داكن",
+    "price": 499,
+    "cat": "بنطلونات",
+    "images": [
+      "https://images.unsplash.com/photo-1526178613214-32d2a90a9b3e?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "colors": [
+      "أزرق",
+      "أسود"
+    ],
+    "desc_ar": "جينز متين وقصة عصرية."
+  },
+  {
+    "id": 4,
+    "ar": "بنطال تشينو",
+    "price": 449,
+    "cat": "بنطلانات",
+    "images": [
+      "https://images.unsplash.com/photo-1562158070-5b5f7d6a3d4b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "colors": [
+      "بيج",
+      "كاكي"
+    ],
+    "desc_ar": "بنطال تشينو خفيف ومناسب للموسم الحار."
+  },
+  {
+    "id": 5,
+    "ar": "سترة خفيفة",
+    "price": 799,
+    "cat": "جاكيتات",
+    "images": [
+      "https://images.unsplash.com/photo-1551022370-1a9a7b7b3f0b?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "زيتي",
+      "أسود"
+    ],
+    "desc_ar": "سترة خفيفة مقاومة للرياح."
+  },
+  {
+    "id": 6,
+    "ar": "هودي",
+    "price": 549,
+    "cat": "هوديز",
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=900&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "رمادي",
+      "أسود"
+    ],
+    "desc_ar": "هودي دافئ ومريح للوقت الحر."
+  }
+]
