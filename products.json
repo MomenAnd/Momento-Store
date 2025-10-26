@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "ar": "قميص قطن كلاسيكي",
+    "en": "Classic Cotton Shirt",
+    "price": 399,
+    "img": "https://images.unsplash.com/photo-1520975910232-0b6d1f0a5f22?w=1200&q=80&auto=format&fit=crop",
+    "cat": "shirts",
+    "desc_ar": "قميص قطني مريح مناسب للعمل والخروج.",
+    "desc_en": "Comfortable cotton shirt, perfect for work and outings.",
+    "images": [
+      "https://images.unsplash.com/photo-1520975910232-0b6d1f0a5f22?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 2,
+    "ar": "تيشيرت بولو",
+    "en": "Polo T-Shirt",
+    "price": 299,
+    "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=80&auto=format&fit=crop",
+    "cat": "shirts",
+    "desc_ar": "تيشيرت بولو أنيق بقصة مريحة.",
+    "desc_en": "Stylish polo with a relaxed fit.",
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 3,
+    "ar": "جينز داكن",
+    "en": "Dark Jeans",
+    "price": 499,
+    "img": "https://images.unsplash.com/photo-1526178613214-32d2a90a9b3e?w=1200&q=80&auto=format&fit=crop",
+    "cat": "pants",
+    "desc_ar": "جينز متين وقصة عصرية.",
+    "desc_en": "Durable jeans with a modern cut.",
+    "images": [
+      "https://images.unsplash.com/photo-1526178613214-32d2a90a9b3e?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 4,
+    "ar": "بنطال تشينو",
+    "en": "Chino Pants",
+    "price": 449,
+    "img": "https://images.unsplash.com/photo-1562158070-5b5f7d6a3d4b?w=1200&q=80&auto=format&fit=crop",
+    "cat": "pants",
+    "desc_ar": "بنطال تشينو خفيف ومناسب للموسم الحار.",
+    "desc_en": "Lightweight chino pants, great for warm weather.",
+    "images": [
+      "https://images.unsplash.com/photo-1562158070-5b5f7d6a3d4b?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 5,
+    "ar": "سترة خفيفة",
+    "en": "Light Jacket",
+    "price": 799,
+    "img": "https://images.unsplash.com/photo-1526178613214-32d2a90a9b3e?w=1200&q=80&auto=format&fit=crop",
+    "cat": "jackets",
+    "desc_ar": "سترة خفيفة مقاومة للرياح.",
+    "desc_en": "Wind-resistant light jacket.",
+    "images": [
+      "https://images.unsplash.com/photo-1526178613214-32d2a90a9b3e?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 6,
+    "ar": "هودي بغطاء",
+    "en": "Hoodie",
+    "price": 549,
+    "img": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80&auto=format&fit=crop",
+    "cat": "hoodies",
+    "desc_ar": "هودي دافئ ومريح للوقت الحر.",
+    "desc_en": "Warm and comfy hoodie for leisure time.",
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 7,
+    "ar": "قميص بولو للأطفال",
+    "en": "Kids Polo Shirt",
+    "price": 219,
+    "img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop",
+    "cat": "kids",
+    "desc_ar": "قميص بولو للأطفال بجودة عالية.",
+    "desc_en": "High-quality kids' polo shirt.",
+    "images": [
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "Free"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 8,
+    "ar": "شورت رياضي",
+    "en": "Sports Shorts",
+    "price": 199,
+    "img": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=1200&q=80&auto=format&fit=crop",
+    "cat": "shorts",
+    "desc_ar": "شورت خفيف للتمارين والنشاطات الرياضية.",
+    "desc_en": "Light shorts for workouts and sports.",
+    "images": [
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 9,
+    "ar": "حزام جلد",
+    "en": "Leather Belt",
+    "price": 149,
+    "img": "https://images.unsplash.com/photo-1519741491031-5aa4f51b9d14?w=1200&q=80&auto=format&fit=crop",
+    "cat": "accessories",
+    "desc_ar": "حزام جلد أنيق متين.",
+    "desc_en": "Durable and stylish leather belt.",
+    "images": [
+      "https://images.unsplash.com/photo-1519741491031-5aa4f51b9d14?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "Free"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  },
+  {
+    "id": 10,
+    "ar": "جاكيت شتوي ثقيل",
+    "en": "Winter Coat",
+    "price": 1299,
+    "img": "https://images.unsplash.com/photo-1602810316668-3cf6a23b8f3c?w=1200&q=80&auto=format&fit=crop",
+    "cat": "coats",
+    "desc_ar": "جاكيت سميك ومناسب للبرد القارس.",
+    "desc_en": "Thick coat suitable for cold winters.",
+    "images": [
+      "https://images.unsplash.com/photo-1602810316668-3cf6a23b8f3c?w=1200&q=80&auto=format&fit=crop"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "أسود",
+      "أبيض",
+      "رمادي"
+    ]
+  }
+]
