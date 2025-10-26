@@ -1,1 +1,124 @@
-<!-- placeholder index.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>متجر مومنتو</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: "Cairo", sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #fff;
+      color: #2ecc71;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .controls button {
+      background: rgba(0,0,0,0.4);
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 20px;
+      background: #2ecc71;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>متجر مومنتو</header>
+
+  <div class="slider">
+    <div class="slides">
+      <img src="https://via.placeholder.com/900x400/2ecc71/ffffff?text=منتجات+مميزة" alt="Slide 1" />
+      <img src="https://via.placeholder.com/900x400/27ae60/ffffff?text=عروض+رائعة" alt="Slide 2" />
+      <img src="https://via.placeholder.com/900x400/1abc9c/ffffff?text=أفضل+الأسعار" alt="Slide 3" />
+    </div>
+    <div class="controls">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>تواصل معنا عبر:</p>
+    <a href="https://wa.me/00201009692467" target="_blank">واتساب</a> |
+    <a href="https://www.facebook.com/share/1A3aZyAAAX/" target="_blank">فيسبوك</a> |
+    <a href="http://www.your-custom-domain.com/" target="_blank">الموقع</a>
+  </footer>
+
+  <script>
+    const slides = document.querySelector('.slides');
+    const totalSlides = slides.children.length;
+    let index = 0;
+
+    document.getElementById('next').onclick = () => {
+      index = (index + 1) % totalSlides;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    };
+
+    document.getElementById('prev').onclick = () => {
+      index = (index - 1 + totalSlides) % totalSlides;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    };
+
+    setInterval(() => {
+      index = (index + 1) % totalSlides;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }, 4000);
+  </script>
+
+</body>
+</html>
